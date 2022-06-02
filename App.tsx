@@ -13,6 +13,7 @@ import { SafeAreaView, StyleSheet, Text, useColorScheme } from 'react-native';
 import ReactNativeBiometrics from 'react-native-biometrics';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { Button, NativeBaseProvider } from 'native-base';
+jest.useFakeTimers();
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -22,7 +23,7 @@ const App = () => {
   };
   const [isSensorAvailable, setIsSensorAvailable] = useState(false);
   const [keysExist, setKeyExist] = useState(false);
-  const [signature, setSignature] = useState();
+  const [signature, setSignature] = useState<string | undefined>();
   useEffect(() => {
     ReactNativeBiometrics.isSensorAvailable().then(resultObject => {
       const { available, biometryType } = resultObject;
