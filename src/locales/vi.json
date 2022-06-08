@@ -1,0 +1,16 @@
+{
+  "amount": "Số lượng",
+  "confirm-your-pin-code": "Xác nhận mã PIN của bạn",
+  "customer-name": "Tên khách hàng",
+  "date": "Ngày",
+  "enter-a-pin-code": "Nhập mã PIN",
+  "enter-mpin": "Nhập MPIN",
+  "incorrect-pin-code": "Mã PIN không chính xác",
+  "invoice-number": "Số hóa đơn",
+  "last-login-time-0": "Thời gian đăng nhập Cuối cùng: {0}",
+  "logout": "Đăng xuất",
+  "please-try-again": "Vui lòng thử lại",
+  "to-keep-your-information-secure": "để giữ thông tin của bạn an toàn",
+  "welcome-back-0": "Chào mừng trở lại, {0}",
+  "your-entries-did-not-match": "Các mục nhập của bạn không khớp"
+}

@@ -1,0 +1,16 @@
+{
+  "enter-a-pin-code": "Enter a PIN Code",
+  "confirm-your-pin-code": "Confirm your PIN Code",
+  "your-entries-did-not-match": "Your entries did not match",
+  "enter-mpin": "Enter MPIN",
+  "incorrect-pin-code": "Incorrect PIN Code",
+  "to-keep-your-information-secure": "to keep your information secure",
+  "please-try-again": "Please try again",
+  "invoice-number": "Invoice number",
+  "customer-name": "Customer Name",
+  "date": "Date",
+  "amount": "Amount",
+  "logout": "Logout",
+  "last-login-time-0": "Last login time: {0}",
+  "welcome-back-0": "Welcome Back, {0}"
+}
